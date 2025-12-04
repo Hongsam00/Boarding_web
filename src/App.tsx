@@ -4,6 +4,7 @@ import MainPage from './main/MainPage';
 import BoardGame from './boardGame/BoardGame';
 import BoardCafe from './boardCafe/BoardCafe';
 import EscapeRoom from './escapeRoom/EscapeRoom';
+import Register from './main/Register';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<ListPage />} />
         <Route path="/main" element={<MainPage />} />
+        <Route path="/register" element={<Register />} />
         <Route path="/boardGame" element={<BoardGame />} />
         <Route path="/boardCafe" element={<BoardCafe />} />
         <Route path="/escapeRoom" element={<EscapeRoom />} />

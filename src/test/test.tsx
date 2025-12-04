@@ -19,7 +19,7 @@ function ListPage() {
                     </tr>
                     <tr>
                         <td>회원가입</td>
-                        <td>아직없음</td>
+                        <td><Link to="/register">/register</Link></td>
                         <td>0%</td>
                     </tr>
                     <tr>
